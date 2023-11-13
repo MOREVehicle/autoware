@@ -102,9 +102,9 @@ repositories:
     url: https://github.com/tier4/pacmod_interface.git
     version: main
   # param
-  param/more.autoware_individual_params:
+  param/autoware.more_individual_params:
     type: git
-    url: https://github.com/MOREVehicle/more.autoware_individual_params.git
+    url: https://github.com/MOREVehicle/autoware.more_individual_params.git
     version: main
   # middleware
   middleware/external/heaphook:
