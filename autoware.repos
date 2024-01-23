@@ -101,6 +101,14 @@ repositories:
     type: git
     url: https://github.com/MOREVehicle/more_interfaces.git
     version: main
+  vehicle/external/more_can:
+    type: git
+    url: https://github.com/MOREVehicle/more_can.git
+    version: main
+  vehicle/external/more_vehicle_interface
+    type: git
+    url: https://github.com/MOREVehicle/more_vehicle_interface.git
+    version: dev
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
