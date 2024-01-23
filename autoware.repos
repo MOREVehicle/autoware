@@ -75,6 +75,10 @@ repositories:
     type: git
     url: https://github.com/tier4/tamagawa_imu_driver.git
     version: ros2
+  sensor_component/extenral/vbox_imu03_driver:
+    type: git
+    url: https://github.com/MOREVehicle/vbox_imu03_driver.git
+    version: main
   sensor_component/external/nebula:
     type: git
     url: https://github.com/tier4/nebula.git
@@ -87,15 +91,15 @@ repositories:
   sensor_kit/more_sensor_kit_launch:
     type: git
     url: https://github.com/moreVehicle/more_sensor_kit_launch.git
-    version: main
-  sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
-    type: git
-    url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
-    version: main
+    version: dev-anton
   # vehicle
   vehicle/more_vehicle_launch:
     type: git
     url: https://github.com/moreVehicle/more_vehicle_launch.git
+    version: main
+  vehicle/external/more_interfaces:
+    type: git
+    url: https://github.com/MOREVehicle/more_interfaces.git
     version: main
   vehicle/external/pacmod_interface:
     type: git
