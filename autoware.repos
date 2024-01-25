@@ -75,7 +75,7 @@ repositories:
     type: git
     url: https://github.com/tier4/tamagawa_imu_driver.git
     version: ros2
-  sensor_component/extenral/vbox_imu03_driver:
+  sensor_component/external/vbox_imu03_driver:
     type: git
     url: https://github.com/MOREVehicle/vbox_imu03_driver.git
     version: main
