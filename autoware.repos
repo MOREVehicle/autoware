@@ -33,10 +33,6 @@ repositories:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
     version: tier4/universe
-  universe/external/morai_msgs:
-    type: git
-    url: https://github.com/MORAI-Autonomous/MORAI-ROS2_morai_msgs.git
-    version: main
   universe/external/muSSP:
     type: git
     url: https://github.com/tier4/muSSP.git
@@ -71,10 +67,6 @@ repositories:
     type: git
     url: https://github.com/tier4/sensor_component_description.git
     version: main
-  sensor_component/external/tamagawa_imu_driver:
-    type: git
-    url: https://github.com/tier4/tamagawa_imu_driver.git
-    version: ros2
   sensor_component/external/vbox_imu03_driver:
     type: git
     url: https://github.com/MOREVehicle/vbox_imu03_driver.git
@@ -109,10 +101,6 @@ repositories:
     type: git
     url: https://github.com/MOREVehicle/more_vehicle_interface.git
     version: dev
-  vehicle/external/pacmod_interface:
-    type: git
-    url: https://github.com/tier4/pacmod_interface.git
-    version: main
   # param
   param/autoware_individual_params:
     type: git
